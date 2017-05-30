@@ -1,0 +1,54 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+#container {
+	width:900px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#sliderdiv {
+	height: 400px;
+	width: 100%;
+	position:relative;
+}
+
+
+#left {
+	height:80px;
+	width:80px;
+}
+
+
+#buttons {
+	height:100px;
+	width:100%;
+	position:absolute;
+	top:28%;
+
+}
+
+
+.next {
+	float:right;
+	line-height:100px;
+	}
+
+.previous {
+	float:left;
+	vertical-align:center;
+}
+
+
+#caption {
+	height:100px;
+	width:100%;
+	background-color:black;
+	position:absolute;
+	opacity:0.5;
+	bottom:0;
+	color:white;
+}
